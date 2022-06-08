@@ -12,7 +12,7 @@
 4. Navigate to the new folder: `cd GWCA-Project-Template`
 5. Build Project: ```cmake -A Win32 -B build -DProjectName=YourProjectName```<br>
 (No spaces, no quotes)
-6. Open the project: ```cmake --open```
+6. Open the project: ```cmake --open build```
 7. Build the project: ```cmake --build build```
 8. Build release with: ```cmake --build build --config Release```
 
