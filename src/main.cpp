@@ -73,7 +73,7 @@ bool Draw(IDirect3DDevice9* device)
             ImGui::Text("Your AgentId: %d", living->agent_id);
             auto primary = GW::Constants::GetProfessionAcronym((GW::Constants::Profession)living->primary);
             auto secondary = GW::Constants::GetProfessionAcronym((GW::Constants::Profession)living->secondary);
-            ImGui::Text("Your Profession: %s/%s", primary.c_str(), secondary.c_str());
+            ImGui::Text("Your Profession: %s/%s", primary, secondary);
         }
 
         if (!show_demo && ImGui::Button("Show Demo"))
